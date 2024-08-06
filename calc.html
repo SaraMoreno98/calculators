@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="#">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <title>JavaScript</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>CALCULADORAS</h1>
+            <nav>
+                <a href="calcperro.html">Edad de tu perro</a>
+                <a href="calciva.html">IVA</a>
+                <a href="#">Calculadora simple</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>CALCULADORA SIMPLE</h2>
+                <div class="div-input">
+                    <input type="number" class="input" id="numero1" placeholder="Nº 1">
+                    <select name="" id="operator">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="x">x</option>
+                        <option value="/">/</option>
+                    </select>
+                    <input type="number" name="" class="input" id="numero2" placeholder="Nº 2">
+                </div>  
+                <center>                    
+                    <button class="btn-calc" onclick="calcular()">Calcular</button>
+                    <button class="btn-calc-erase" onclick="clear()">Borrar</button>
+                </center>                 
+                <p id="resultado_calc">
+            </section>
+        </main>
+        
+        <footer></footer>
+
+<!-- JAVASCRIPT -->
+        <script src="js/calcsimple.js"></script>
+    </body>
+</html>

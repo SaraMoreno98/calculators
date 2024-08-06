@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, h2{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    padding: 16px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+main{
+    width: 80%;
+    margin-left: 10%;
+}
+
+section{
+    margin-bottom: 56px;
+    padding: 16px;
+    border-radius: 0.3rem;
+    background-color: rgb(202, 202, 202);
+}
+
+.div-input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.flex-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+}
+
+label input{
+    width: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+.input{
+    margin: 8px;
+}
+
+select{
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+button{
+    padding: 8px;
+    width: 50%;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+button:hover{
+    background-color: rgb(59, 212, 59);
+    font-weight: bold;
+}
+
+.btn-calc{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.btn-calc-erase:hover{
+    background-color: rgb(182, 0, 0);
+    font-weight: normal;
+}
+
+p{
+    text-align: center;
+}
